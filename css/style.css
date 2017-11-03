@@ -1,0 +1,178 @@
+body {
+  background: #dfdce3;
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #fc4a1a;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #fc4a1a;
+  text-decoration: none;
+}
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  max-width: 1000px;
+  border: 4px solid #fc4a1a;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  height: 700px;
+  position: relative;
+  padding: 0;
+}
+
+.selected {
+  color: #fc4a1a;
+  text-decoration: none;
+}
+
+#weatherDiv {
+  background: rgba(74, 189, 172, 0.8);
+  height: 45%;
+  max-width: 400px;
+  border: 4px solid #fc4a1a;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 10px;
+}
+
+#city {
+  font-size: 1.35em;
+}
+
+#country,
+#time {
+  font-size: 0.7em;
+}
+
+#icon {
+  padding-top: 25px;
+}
+
+#temp {
+  font-size: 4em;
+  color: black;
+  padding-top: 25px;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#author {
+  text-align: center;
+  color: #333;
+  font-family: Raleway;
+  font-size: 0.6em;
+}
+
+/* weather background classes */
+
+.clear-day {
+  background: url(https://c2.staticflickr.com/8/7438/27741917480_1705038397_b.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.clear-night {
+  background: url(https://www.walldevil.com/wallpapers/a57/sky-moon-night-star.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.partly-cloudy-day {
+  background: url(http://www.publicdomainpictures.net/pictures/40000/velka/cloudy-day-1366798736VRh.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.partly-cloudy-night {
+  background: url(http://cdn.weatheravenue.com/img/background/background-night.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloudy {
+  background: url(http://cdnfiles.hdrcreme.com/49001/original/cloudy-day.jpg?1426718412)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.rain {
+  background: url(https://az616578.vo.msecnd.net/files/2016/09/30/6361080350025823521768139853_rainyday-2-1.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sleet {
+  background: url(https://i.ytimg.com/vi/lHTCouHMkes/maxresdefault.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.snow {
+  background: url(http://www.sepeb.com/snowing/snowing-002.jpg) no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wind {
+  background: url(http://digitalphotographysecrets.com/wp-content/uploads/2012/02/591139_19425673.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fog {
+  background: url(https://www.metoffice.gov.uk/binaries/content/gallery/mohippo/images/migrated-image/9/walkers-486583_1920_1.jpg)
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

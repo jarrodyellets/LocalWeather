@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto|Raleway'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+  <div class="container">
+
+    <!--     Main weather window -->
+    <div id="weatherDiv">
+      <div id="city"></div>
+      <div id="country"></div>
+      <div id="time"></div>
+      <div id="conditions"></div>
+      <div class="row">
+        <div class="col-xs-6">
+          <canvas id="icon" width=200 height=100></canvas>
+        </div>
+        <div class="col-xs-6" id="temp"></div>
+      </div>
+
+      <!--       Buttons -->
+      <div id="button"><a href="#" id="celsius">C</a> | <a href="#" class="selected" id="fahrenheit">F</a>
+      </div>
+    </div>
+  </div>
+  <div id="author">&copy; Jarrod Yellets | 2017</div>
+
+<script src='https://code.jquery.com/jquery-3.2.1.js'></script>
+<script src='https://rawgithub.com/darkskyapp/skycons/master/skycons.js'></script>
+<script  src="js/index.js"></script>
+
+</body>
+</html>
